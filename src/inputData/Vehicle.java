@@ -18,6 +18,6 @@ public class Vehicle {
         No = Integer.valueOf(noOfWheels.nextLine());
 //        No = sc.nextLine();
         System.out.println("Chosen the vehicle with "+No);
-        noOfWheels.close();
+//        noOfWheels.close();
     }
 }

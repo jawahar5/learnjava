@@ -30,8 +30,9 @@ public class MyCode {
         else if (eceVal==0 && cseVal==0 && mechVal==0){
             System.out.println("None of the department has got highest placement");
         }
+
     }
-    public static void main(String[] args) {
+    public static void InitialFn() {
         int cseCount=0;
         int eceCount=0;
         int mechCount=0;
@@ -40,6 +41,7 @@ public class MyCode {
         cseCount = sc.nextInt();
         System.out.println("Enter the no of students placed in ECE:");
         eceCount = sc.nextInt();
+
         System.out.println("Enter the no of students placed in MECH:");
         mechCount = sc.nextInt();
         if(eceCount<0 || cseCount<0 || mechCount <0){

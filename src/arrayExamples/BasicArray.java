@@ -22,6 +22,13 @@ public class BasicArray {
             }
             System.out.println();
         }
+
+        for (int n[] : arr){
+            for(int  m: n){
+                System.out.print(m+" ");
+            }
+            System.out.println();
+        }
     }
 
     public void userDefinedArray(int a, int b){

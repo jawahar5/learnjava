@@ -45,16 +45,21 @@ public class EntryClass  {   // extends ParentClass
         answer= methodOverloading.add(5, 6,3,5);
         System.out.println("Four param method gives: "+answer);
 
+//        MyCode mycode = new MyCode();
+//        mycode.InitialFn();
+
+
         BasicArray arr1 = new BasicArray();
         arr1.simpleArray();
         arr1.multiDimensional();
         System.out.println("Enter two values one after the other in two lines");
 
         Scanner sc = new Scanner(System.in);
-
         val1 = Integer.valueOf(sc.nextLine());
           val2=Integer.valueOf(sc.nextLine());
         arr1.userDefinedArray(val1, val2);
+        sc.close();
+
     }
 }
 
