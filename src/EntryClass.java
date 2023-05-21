@@ -14,18 +14,7 @@ public class EntryClass  {   // extends ParentClass
     public static void main(String[] args) {
         int val1;
         int val2;
-        int answer =0;
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-      //  System.out.printf("Hello and welcome!");
-
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-//        for (int i = 1; i <= 5; i++) {
-//            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-//            // for you, but you can always add more by pressing Cmd+F8.
-//            System.out.println("i = " + i);
-//        }
-
+        int answer;
 
         Vehicle v1 = new Vehicle();
         Vehicle.drive("car");
@@ -48,18 +37,16 @@ public class EntryClass  {   // extends ParentClass
 //        MyCode mycode = new MyCode();
 //        mycode.InitialFn();
 
-
         BasicArray arr1 = new BasicArray();
         arr1.simpleArray();
         arr1.multiDimensional();
         System.out.println("Enter two values one after the other in two lines");
 
         Scanner sc = new Scanner(System.in);
-        val1 = Integer.valueOf(sc.nextLine());
-          val2=Integer.valueOf(sc.nextLine());
+        val1 = Integer.parseInt(sc.nextLine());
+        val2=Integer.parseInt(sc.nextLine());
         arr1.userDefinedArray(val1, val2);
         sc.close();
-
     }
 }
 
